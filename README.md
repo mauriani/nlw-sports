@@ -1,4 +1,4 @@
-# nlw-sports
+# NLW-Sports
 
 Next Level Week SPORTS
 
