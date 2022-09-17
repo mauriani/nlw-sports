@@ -22,6 +22,7 @@ Antes de iniciar você precisar ter o ambiente configurado.
 
 - Nodejs
 - Expo
+- npm/yarn
 
 ```jsx
 git https://github.com/mauriani/nlw-sports.git
@@ -31,3 +32,34 @@ Após o download do repositório em sua máquina basta realizar os seguintes com
 
 ```jsx
 // acessar a basta do projeto
+cd server
+// instalar todas as dependencias do projeto
+yarn install ou npm install
+
+// acessar a basta do projeto
+cd web
+// instalar todas as dependencias do projeto
+yarn install ou npm install
+
+// acessar a basta do projeto
+cd mobile
+// instalar todas as dependencias do projeto
+yarn install ou npm install
+
+```
+
+## Executando Projeto
+
+```jsx
+// start na api
+cd server
+yarn dev
+
+// start na versão web
+cd web
+yarn dev
+
+// para executa você pode usar o expo instalado no seu celular
+cd mobile
+expo start
+```
