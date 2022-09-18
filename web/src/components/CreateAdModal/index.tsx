@@ -139,8 +139,8 @@ export function CreateAdModal() {
                   <ToggleGroup.Item
                     value={"0"}
                     title="Domingo"
-                    className={`w-8 h-8 rounded bg-zinc-900 ${
-                      weekDays.includes("0") ? "bg-violet-500" : ""
+                    className={`w-8 h-8 rounded  ${
+                      weekDays.includes("0") ? "bg-violet-500" : "bg-zinc-900"
                     }`}
                   >
                     D
